@@ -193,46 +193,63 @@
             <div class="question_title">ОТВЕТЫ НА ВОПРОСЫ</div>
             <div class="question_block">
                 <!-- 1 -->
-                <div class="question_item">
-                    <div class="question_item_title">
-                        <label for="btn1">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</label>
-                    </div>
-                    <input id="btn1" type="checkbox">
+                <details class="question_item">
+                    <summary class="question_item_title">
+                        РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+                    </summary>
+                    <!-- <input id="btn1" type="checkbox"> -->
                     <div class="request_item">
                         Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
                         стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
                         печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
                         образцов.
                     </div>
-                </div>
+                </details>
                 <!-- 2 -->
-                <div class="question_item">
-                    <div class="question_item_title">
-                        <label for="btn2">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</label>
-                    </div>
-                    <input id="btn2" type="checkbox">
+                <details class="question_item">
+                    <summary class="question_item_title">
+                        РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+                    </summary>
+                    <!-- <input id="btn1" type="checkbox"> -->
                     <div class="request_item">
                         Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
                         стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
                         печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
                         образцов.
                     </div>
-                </div>
+                </details>
+
                 <!-- 3 -->
-                <div class="question_item">
-                    <div class="question_item_title">
-                        <label for="btn3">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</label>
-                    </div>
-                    <input id="btn3" type="checkbox">
+                <details class="question_item">
+                    <summary class="question_item_title">
+                        РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+                    </summary>
+                    <!-- <input id="btn1" type="checkbox"> -->
                     <div class="request_item">
                         Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
                         стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
                         печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
                         образцов.
                     </div>
-                </div>
+                </details>
+
+                <!-- 4 new -->
+                <details class="question_item">
+                    <summary class="question_item_title">
+                        РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+                    </summary>
+                    <!-- <input id="btn1" type="checkbox"> -->
+                    <div class="request_item">
+                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+                        стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
+                        печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
+                        образцов.
+                    </div>
+                </details>
+
                 <!-- 4 -->
-                <div class="question_item">
+                <!-- предыдущая версия с чекбоксом -->
+                <!-- <div class="question_item">
                     <div class="question_item_title">
                         <label for="btn4">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</label>
                     </div>
@@ -243,7 +260,7 @@
                         печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
                         образцов.
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -328,21 +345,22 @@
             <div class="contacts_grid">
 
                 <div class="contacts_item">
-                    <img src="img/map-point.svg" alt="map" class="contacts_item-image">
+                    <img src="img/map-point.svg" alt="map" class="contacts_item-image map">
                     <div class="contacts_item-title">АДРЕС:</div>
                     <div class="contacts_item-text">НЕВСКИЙ ПРОСПЕКТ 140,
                         ОФИС 140-142</div>
                 </div>
 
                 <div class="contacts_item">
-                    <img src="img/phone.svg" alt="phone" class="contacts_item-image">
+                    <img src="img/phone.svg" alt="phone" class="contacts_item-image phone">
                     <div class="contacts_item-title">ТЕЛЕФОН:</div>
-                    <div class="contacts_item-text">8 (812) 111-22-33<br>
-                        8 (812) 111-22-33</div>
+                    <div class="contacts_item-text"><a href="tel:+78767">8 (812) 111-22-33</a><br>
+                        <a href="tel:+78767">8 (812) 111-22-33</a>
+                    </div>
                 </div>
 
                 <div class="contacts_item">
-                    <img src="img/work-time.svg" alt="time" class="contacts_item-image">
+                    <img src="img/work-time.svg" alt="time" class="contacts_item-image clock">
                     <div class="contacts_item-title">ВРЕМЯ РАБОТЫ:</div>
                     <div class="contacts_item-text">ПН-СБ <br>
                         10:00 - 20:00</div>
@@ -351,7 +369,9 @@
                 <div class="contacts_item email_item">
                     <img src="img/email.svg" alt="email" class="contacts_item-image email-image">
                     <div class="contacts_item-title email-item-title">E-MAIL:</div>
-                    <div class="contacts_item-text email_text">INFO@VIP.RU</div>
+                    <div class="contacts_item-text email_text">
+                        <a href="mailto:INFO@VIP.RU">INFO@VIP.RU</a>
+                    </div>
                 </div>
 
             </div>
